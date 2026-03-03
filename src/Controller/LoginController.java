@@ -1,6 +1,6 @@
 package Controller;
 
-import Dao.TaiKhoanDAO;
+import Dao_1.TaiKhoanDAO;
 import Model.TaiKhoan;
 
 public class LoginController {

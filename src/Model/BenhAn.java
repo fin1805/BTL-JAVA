@@ -22,5 +22,53 @@ public class BenhAn {
         this.ngayTao = ngayTao;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public int getLichHenId() {
+        return lichHenId;
+    }
+
+    public String getChanDoan() {
+        return chanDoan;
+    }
+
+    public String getPhuongPhapDieuTri() {
+        return phuongPhapDieuTri;
+    }
+
+    public String getGhiChu() {
+        return ghiChu;
+    }
+
+    public LocalDate getNgayTao() {
+        return ngayTao;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setLichHenId(int lichHenId) {
+        this.lichHenId = lichHenId;
+    }
+
+    public void setChanDoan(String chanDoan) {
+        this.chanDoan = chanDoan;
+    }
+
+    public void setPhuongPhapDieuTri(String phuongPhapDieuTri) {
+        this.phuongPhapDieuTri = phuongPhapDieuTri;
+    }
+
+    public void setGhiChu(String ghiChu) {
+        this.ghiChu = ghiChu;
+    }
+
+    public void setNgayTao(LocalDate ngayTao) {
+        this.ngayTao = ngayTao;
+    }
+
     // getter setter
 }

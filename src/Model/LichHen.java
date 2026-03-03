@@ -25,4 +25,60 @@ public class LichHen {
     }
 
     // getter setter
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getThuCungId() {
+        return thuCungId;
+    }
+
+    public void setThuCungId(int thuCungId) {
+        this.thuCungId = thuCungId;
+    }
+
+    public int getBacSiId() {
+        return bacSiId;
+    }
+
+    public void setBacSiId(int bacSiId) {
+        this.bacSiId = bacSiId;
+    }
+
+    public LocalDateTime getThoiGian() {
+        return thoiGian;
+    }
+
+    public void setThoiGian(LocalDateTime thoiGian) {
+        this.thoiGian = thoiGian;
+    }
+
+    public String getLyDoKham() {
+        return lyDoKham;
+    }
+
+    public void setLyDoKham(String lyDoKham) {
+        this.lyDoKham = lyDoKham;
+    }
+
+    public String getTrangThai() {
+        return trangThai;
+    }
+
+    public void setTrangThai(String trangThai) {
+        this.trangThai = trangThai;
+    }
+
+    public String getGhiChu() {
+        return ghiChu;
+    }
+
+    public void setGhiChu(String ghiChu) {
+        this.ghiChu = ghiChu;
+    }
+
 }
